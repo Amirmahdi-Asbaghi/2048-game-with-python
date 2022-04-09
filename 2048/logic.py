@@ -8,10 +8,10 @@ def logic():
     while True:
 
         print("please enter your move")
-        print("'r' or 'R' for right")
-        print("'l' or 'L' for left")
-        print("'u' or 'U' for up")
-        print("'d' or 'D' for down")
+        print("'r' for right")
+        print("'l' for left")
+        print("'u' for up")
+        print("'d' for down")
         print(f"count of moves = {counter}")
         print_table(table)
         if not game_over(table):
